@@ -1,0 +1,24 @@
+
+
+<div class="loader">
+  <span>{</span><span>}</span>
+</div>
+<body onload = "startTimer()">
+ 
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+  <script>
+      $(document).ready(function () {
+          // Hide the div
+          $("#div1").hide();
+          // Show the div after 5s
+          $("#div1").delay(5000).fadeIn(100);  
+      });    
+  </script>
+  
+  <div id="div1" class="div1"><ul class="topnav">
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li class="right"><a href="#about">About</a></li>
+</ul>
+</div>
